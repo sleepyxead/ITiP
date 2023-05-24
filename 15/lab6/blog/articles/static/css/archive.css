@@ -1,0 +1,70 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+}
+
+.article-author{
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+    float: left;
+}
+.article-title{
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-created-date {
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.archive img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header img{
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+  position: relative;
+}
+
+
+.greeting {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.create_article, .logout, .login, .register {
+  color: #ffffff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.logout, .register, .create_article {
+  float: right;
+}
+
+.login {
+  float: right;
+  margin-right: 10px;
+}
